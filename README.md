@@ -1,6 +1,6 @@
 # 🛒 My Store App – Digital Product Store (Under Development)
 
-Welcome to **My Store App**, a digital product store created as a foundational project for future integrations with my [Portfolio Website](https://your-portfolio-link.com). This project is **under development**, and more features including a backend, user authentication, and admin dashboard will be added in the future.
+Welcome to **My Store App**, a digital product store created as a foundational project for future integrations with my [Portfolio Website](https://kartik-portfolio-sigma.vercel.app/). This project is **under development**, and more features including a backend, user authentication, and admin dashboard will be added in the future.
 
 ---
 
@@ -15,7 +15,7 @@ I created this store primarily to connect with my portfolio site and gradually e
 
 > 🟢 Visit the live deployed version on Vercel:
 
-**🔗 [Access My Digital Store](https://my-store-app.vercel.app)**  
+**🔗 [Access My Digital Store](https://my-store-app-beta.vercel.app/)**  
 > (Deployed using Vercel – real-time deployment from the GitHub repo)
 
 ---
