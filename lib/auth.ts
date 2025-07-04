@@ -7,8 +7,15 @@ import bcrypt from 'bcryptjs'
 import connectDB from './mongodb'
 import User from './models/User'
 
-const client = new MongoClient(process.env.MONGODB_URI!)
-const clientPromise = client.connect()
+// Create a lazy connection that only connects when needed
+const getMongoClient = async () => {
+  const client = new MongoClient(process.env.MONGODB_URI!)
+  await client.connect()
+  return client
+}
+
+// Create a promise that resolves to the client when needed
+const clientPromise = getMongoClient()
 
 export const authOptions: NextAuthOptions = {
   adapter: MongoDBAdapter(clientPromise),
